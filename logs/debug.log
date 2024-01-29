@@ -1,0 +1,35 @@
+2024-01-29 10:11:05.037 [main] INFO  OrdTrackerApplication() - Starting OrdTrackerApplication using Java 1.8.0_361 on Restraint-MacBook-Pro.local with PID 65426 (/Users/xuxiang/workplace/XW/ORDTracker/build/classes/java/main started by xuxiang in /Users/xuxiang/workplace/XW/ORDTracker)
+2024-01-29 10:11:05.049 [main] INFO  OrdTrackerApplication() - No active profile set, falling back to 1 default profile: "default"
+2024-01-29 10:11:05.684 [main] INFO  RepositoryConfigurationDelegate() - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-29 10:11:05.700 [main] INFO  RepositoryConfigurationDelegate() - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-01-29 10:11:06.199 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 8080 (http)
+2024-01-29 10:11:06.207 [main] INFO  Http11NioProtocol() - Initializing ProtocolHandler ["http-nio-8080"]
+2024-01-29 10:11:06.208 [main] INFO  StandardService() - Starting service [Tomcat]
+2024-01-29 10:11:06.208 [main] INFO  StandardEngine() - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-01-29 10:11:06.414 [main] INFO  [/]() - Initializing Spring embedded WebApplicationContext
+2024-01-29 10:11:06.414 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 1308 ms
+2024-01-29 10:11:06.569 [main] INFO  LogHelper() - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-29 10:11:06.588 [main] INFO  Version() - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-01-29 10:11:06.677 [main] INFO  Version() - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-01-29 10:11:06.726 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2024-01-29 10:11:07.020 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2024-01-29 10:11:07.026 [main] INFO  Dialect() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2024-01-29 10:11:07.132 [main] INFO  JtaPlatformInitiator() - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-29 10:11:07.138 [main] INFO  LocalContainerEntityManagerFactoryBean() - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 10:11:07.367 [main] INFO  WelcomePageHandlerMapping() - Adding welcome page: class path resource [static/index.html]
+2024-01-29 10:11:07.508 [main] WARN  UserDetailsServiceAutoConfiguration() - 
+
+Using generated security password: 7785cb53-af32-4aba-bafc-c160185e7902
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-01-29 10:11:07.598 [main] INFO  DefaultSecurityFilterChain() - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ba1b62e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ce26986, org.springframework.security.web.header.HeaderWriterFilter@4b3a01d8, org.springframework.security.web.csrf.CsrfFilter@53016b11, org.springframework.security.web.authentication.logout.LogoutFilter@2abc55c4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7c71c889, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5866731, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65bd19bf, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2c47a053, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d6cd1e0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9785903, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74697863, org.springframework.security.web.session.SessionManagementFilter@2f4d32bf, org.springframework.security.web.access.ExceptionTranslationFilter@4eb9ae4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b46392c]
+2024-01-29 10:11:07.700 [main] INFO  Http11NioProtocol() - Starting ProtocolHandler ["http-nio-8080"]
+2024-01-29 10:11:07.718 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 8080 (http) with context path ''
+2024-01-29 10:11:07.732 [main] INFO  OrdTrackerApplication() - Started OrdTrackerApplication in 3.179 seconds (JVM running for 5.741)
+2024-01-29 10:11:26.210 [http-nio-8080-exec-1] INFO  [/]() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-01-29 10:11:26.211 [http-nio-8080-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2024-01-29 10:11:26.220 [http-nio-8080-exec-1] INFO  DispatcherServlet() - Completed initialization in 9 ms
+2024-01-29 10:12:26.708 [SpringApplicationShutdownHook] INFO  LocalContainerEntityManagerFactoryBean() - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-01-29 10:12:26.718 [SpringApplicationShutdownHook] INFO  HikariDataSource() - HikariPool-1 - Shutdown initiated...
+2024-01-29 10:12:26.747 [SpringApplicationShutdownHook] INFO  HikariDataSource() - HikariPool-1 - Shutdown completed.

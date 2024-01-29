@@ -1,0 +1,6 @@
+2024-01-29 10:11:07.508 [main] WARN  UserDetailsServiceAutoConfiguration() - 
+
+Using generated security password: 7785cb53-af32-4aba-bafc-c160185e7902
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
